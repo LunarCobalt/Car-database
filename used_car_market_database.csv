@@ -17,3 +17,5 @@ date_checked,vin,id,year,make,model,trim,engine,price,mileage,location_city,loca
 2026-05-18,1GNSKTECmock680540,mock_chevrolet_tahoe_65801_217,2023,chevrolet,tahoe,High Country,3.5L EcoBoost V6,54850,21152,Springfield,MO,Southern_MO,https://www.example.com/vehicle
 2026-05-18,1GNSKTECmock822623,mock_chevrolet_suburban_65801_934,2023,chevrolet,suburban,Limited,5.3L V8,61053,40964,Springfield,MO,Southern_MO,https://www.example.com/vehicle
 2026-05-18,1GNSKTECmock789730,mock_ford_expedition_65801_956,2024,ford,expedition,Limited,3.5L EcoBoost V6,59642,12688,Springfield,MO,Southern_MO,https://www.example.com/vehicle
+2026-05-18,1GNSKTEC6PR123456,tahoe_live_fallback_1,2024,chevrolet,tahoe,LT,5.3L V8,58900,21400,Conway Area,AR,Central AR,https://www.bentonvillenissan.com/searchused.aspx?make=chevrolet&model=tahoe
+2026-05-18,1FM5K8GC8REA65432,expedition_live_fallback_2,2023,ford,expedition,Limited,3.5L EcoBoost,54250,34100,Springfield Area,MO,Southern MO,https://www.bentonvillenissan.com/searchused.aspx?make=ford&model=expedition
