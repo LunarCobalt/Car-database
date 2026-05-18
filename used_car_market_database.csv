@@ -5,3 +5,9 @@ date_checked,vin,id,year,make,model,trim,engine,price,mileage,location_city,loca
 2026-05-18,1GNSKTECmock176936,mock_chevrolet_tahoe_65801_499,2024,chevrolet,tahoe,Platinum,5.3L V8,66241,40832,Springfield,MO,Southern_MO,https://www.example.com/vehicle
 2026-05-18,1GNSKTECmock697174,mock_chevrolet_suburban_65801_671,2025,chevrolet,suburban,Premier,5.3L V8,71602,21524,Springfield,MO,Southern_MO,https://www.example.com/vehicle
 2026-05-18,1GNSKTECmock567841,mock_ford_expedition_65801_399,2023,ford,expedition,Platinum,5.3L V8,70477,34892,Springfield,MO,Southern_MO,https://www.example.com/vehicle
+2026-05-18,1GNSKTECmock777100,mock_chevrolet_tahoe_72032_810,2023,chevrolet,tahoe,XLT,3.0L Duramax Diesel,65399,39631,Conway,AR,Central_North_AR,https://www.example.com/vehicle
+2026-05-18,1GNSKTECmock364315,mock_chevrolet_suburban_72032_449,2024,chevrolet,suburban,High Country,5.3L V8,71577,28589,Conway,AR,Central_North_AR,https://www.example.com/vehicle
+2026-05-18,1GNSKTECmock430216,mock_ford_expedition_72032_512,2025,ford,expedition,Platinum,3.5L EcoBoost V6,64056,14122,Conway,AR,Central_North_AR,https://www.example.com/vehicle
+2026-05-18,1GNSKTECmock207763,mock_chevrolet_tahoe_65801_563,2024,chevrolet,tahoe,Premier,3.5L EcoBoost V6,55429,41825,Springfield,MO,Southern_MO,https://www.example.com/vehicle
+2026-05-18,1GNSKTECmock942513,mock_chevrolet_suburban_65801_586,2025,chevrolet,suburban,Limited,3.5L EcoBoost V6,56162,24518,Springfield,MO,Southern_MO,https://www.example.com/vehicle
+2026-05-18,1GNSKTECmock442866,mock_ford_expedition_65801_605,2025,ford,expedition,Premier,5.3L V8,72731,38713,Springfield,MO,Southern_MO,https://www.example.com/vehicle
