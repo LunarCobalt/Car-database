@@ -1,0 +1,36 @@
+name: Automated Market Scraper Pipeline
+
+on:
+  schedule:
+    - cron: '0 23 * * *' # Fires automatically every single day at 6:00 PM Central Time
+  workflow_dispatch: # Allows manual trigger testing anytime
+
+jobs:
+  run_scraper:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Crucial permission flag to allow the bot to commit data back to your repo
+    steps:
+      - name: Codebase Checkout
+        uses: actions/checkout@v4
+
+      - name: Initialize Python Core Engine
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Build Library Infrastructure
+        run: |
+          pip install requests beautifulsoup4 pandas
+
+      - name: Fire Data Scraper Engine
+        run: python car_market_harvester.py
+
+      - name: Save Records and Append Database Changes
+        run: |
+          git config --global user.name "Market-Scraper-Bot"
+          git config --global user.email "bot@github.com"
+          git add used_car_market_database.csv
+          git diff-index --quiet HEAD || git commit -m "Database Append: $(date +'%Y-%m-%d') Automated Sync"
+          git push
